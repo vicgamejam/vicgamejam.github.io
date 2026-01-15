@@ -28,6 +28,54 @@
   color: #61dafb;
 }
 
+#navBarContainer{
+  display: flex;
+  background-color: #263575; 
+  vertical-align: bottom;
+  align-items: flex-end;
+}
+
+#navBarRoutingOptions{
+  margin-left: 2vw;
+}
+
+@media screen and (max-width: 700px) {
+  #App-banner-logo{
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+  }
+}
+
+#App-banner-logo {
+  height: 8vh;
+  padding: 0px;
+  padding-right: 2%;
+}
+
+#App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#headerRoutingOptions a:link{
+  color:#b8c7ce
+
+}
+
+#headerRoutingOptions a:visited{
+  color:#b8c7ce
+
+}
+#headerRoutingOptions{
+  align-items: flex-end;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
