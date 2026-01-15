@@ -1,0 +1,22 @@
+#parent
+{
+    display: flex;
+}
+
+#text-side
+{
+    flex: 30%;
+    font-size: 30px;
+
+}
+
+#logo-side
+{
+    flex: 70%;
+}
+
+#pitch-logo
+{
+    height: 300px;
+    width: auto;
+}

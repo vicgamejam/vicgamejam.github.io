@@ -76,6 +76,26 @@
   align-items: flex-end;
 }
 
+#footerRoutingOptions a:link{
+  color:#b8c7ce
+
+}
+
+#footerRoutingOptions a:visited{
+  color:#b8c7ce
+
+}
+#footerRoutingOptions{
+  align-items: flex-end;
+}
+
+#footer{
+  display: flex;
+  background-color: #263575; 
+  vertical-align: bottom;
+  align-items: flex-end;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

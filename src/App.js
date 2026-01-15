@@ -12,7 +12,8 @@ function App() {
     <div id="header">
       <div id="navBarContainer">
         <a href="/ ">
-        <img src={Logo} id="App-banner-logo" alt="logo" /* image should take user back to homepage*//>
+        { /* image should take user back to homepage*/}
+        <img src={Logo} id="App-banner-logo" alt="logo"/>
         </a>
         <span id="headerRoutingOptions">
           <Link to="/">About</Link> | {" "}
@@ -28,7 +29,15 @@ function App() {
             <Route path = "/" element={<Homepage/>} />
       </Routes>
     </div>
+    <footer id = "footer">
+      <span id ="footerRoutingOptions">
+          <Link to="/">Help</Link> | {" "}
+          <Link to="/">Press Kit</Link> | {" "}
+          <Link to="/">Contact</Link> | {" "}
+      </span>
+    </footer>
     </BrowserRouter>
+
   );
 }
 
