@@ -1,41 +1,33 @@
-#parent
+#sponsorshipPitch
 {
-    display: flex;
+    display:flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-#text-side
+#sponsorText
 {
-    flex: 30%;
-    font-size: 30px;
+    flex: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: left;
-    margin-left: 3%;
 }
 
-#logo-side
+#sponsorImage
 {
-    flex: 70%;
+    flex: 50%;
 }
 
-#pitch-logo
+#sponsorHeader
 {
-    height: 300px;
-    width: auto;
-}
-
-#pitchHeader
-{
-
-width: 512px;
-height: 186px;
 
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 110%;
+margin-right: 5vw;
 /* or 62px */
 display: flex;
 align-items: center;
@@ -43,55 +35,39 @@ text-align: left;
 letter-spacing: -0.02em;
 
 color: #000000;
-
-
 }
 
-#pitchText
+#sponsorBody
 {
-
-width: 512px;
-height: 140px;
-
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 145%;
+text-align: left;
+margin-right: 5vw;
 /* or 35px */
 display: flex;
-text-align: left;
+align-items: center;
 letter-spacing: -0.005em;
 
 color: rgba(0, 0, 0, 0.55);
-
-
-
-
 }
 
-#buttonDiv
+#sponsorButtons
 {
-/* Buttons */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-items: center;
-align-content: flex-start;
-padding: 0px;
-gap: 16px;
-
-
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 16px;
 }
 
-#signup
+#Donate
 {
-/* Primary button */
-
-/* Auto layout */
+    /* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -116,26 +92,22 @@ font-size: 16px;
 line-height: 145%;
 /* or 26px */
 color: #FFFFFF;
-
-
 }
 
-#secondary
+#Benefits
 {
-
-/* Secondary button */
-
 box-sizing: border-box;
+background-color: #FFFFFF;
 
 /* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 12px 16px;
-gap: 8px;
+padding: 12px 18px;
+gap: 10px;
 
-width: 125px;
+width: 145px;
 height: 50px;
 
 border: 2px solid rgba(0, 0, 0, 0.15);

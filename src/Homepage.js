@@ -2,6 +2,7 @@ import Pitch2026 from "./pitch2026";
 import CountdownTimer from "./CountdownTimer";
 import LastYear2026 from "./lastyear2026";
 import './Homepage.css'
+import SponsorshipPitch2026 from "./SponsorshipPitch2026";
 
 /*Trying to modulate the homepage as much as possible. Want to make it so later contributers can plug in new modules
 if they want to as easily as possible.
@@ -18,7 +19,7 @@ function Homepage()
     {
         d_Day = new Date("March 30, 2026 23:00:00");
     }
-    return (<div id="homepage"><Pitch2026/> <CountdownTimer targetDate={d_Day}/> <LastYear2026/>
+    return (<div id="homepage"><Pitch2026/> <CountdownTimer targetDate={d_Day}/> <LastYear2026/> <SponsorshipPitch2026/>
     </div>)
 
 }
