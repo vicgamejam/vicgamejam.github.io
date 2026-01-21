@@ -16,7 +16,10 @@
 
 #sponsorImage
 {
+    display: flex;
     flex: 50%;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #sponsorHeader
@@ -25,7 +28,7 @@
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 700;
-font-size: 56px;
+font-size: 70px;
 line-height: 110%;
 margin-right: 5vw;
 /* or 62px */

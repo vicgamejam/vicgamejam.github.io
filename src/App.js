@@ -13,8 +13,8 @@ function App() {
       <div id="navBarContainer">
         <a href="/ " id='logo-link'>  
         { /* image should take user back to homepage*/}
-        <img src={Logo} id="App-banner-logo" alt="logo"/>
-        <p id='vicText'>VIC Jam</p>
+        <img src={Logo} id="App-banner-logo" style={{marginLeft: '40px'}} alt="logo"/>
+        <p id='vicText' style={{marginLeft: '5px'}}>VIC Jam</p>
         </a>
         <span id="headerRoutingOptions">
           <button id ='sponsorButton'>Sponsorships</button>
