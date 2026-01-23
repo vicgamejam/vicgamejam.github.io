@@ -3,6 +3,7 @@
     display: flex;
 }
 
+
 #text-side
 {
     flex: 30%;
@@ -25,7 +26,7 @@
 #pitch-logo
 {
     height: auto;
-    width: 600px;
+    width: 570px;
 }
 
 #pitchHeader
