@@ -39,7 +39,7 @@
 
 #navBarContainer{
   display: flex;
-  background-color: #263575; 
+  background-color: #434397;
   align-items: center;
   gap: 70vw
 }
@@ -120,7 +120,7 @@ flex-grow: 1;
 #signupButton
 {
   background: white;
-	color: #263575;
+	color: #434397;
 	border: none;
 	padding: 5%;
   width: 5vw;
@@ -147,7 +147,7 @@ flex-grow: 1;
 
 #footer{
   display: flex;
-  background-color: #263575; 
+  background-color: #434397; 
   vertical-align: bottom;
 
 }

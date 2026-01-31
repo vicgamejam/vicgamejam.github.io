@@ -2,7 +2,9 @@
 import './App.css';
 import { BrowserRouter, Routes, Route, Link} from 'react-router-dom'
 import Homepage from './Homepage';
+import Sponsorships from './Sponsorships';
 import Logo from './Asset_373x.png';
+
 
 
 // This file should handle the routing of the application. Header and footer appear here too.
@@ -27,6 +29,7 @@ function App() {
     <div className="App">
       <Routes>
             <Route path = "/" element={<Homepage/>} />
+            <Route path = "/sponsorships" element={<Sponsorships/>} />
       </Routes>
     </div>
 

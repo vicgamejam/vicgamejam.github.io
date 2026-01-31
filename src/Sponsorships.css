@@ -1,0 +1,81 @@
+#sponsorshipContainer
+{
+    background-color: #263575;
+    padding: 0;
+}
+
+.sponsorText
+{
+    font-family: 'Open Sans';
+    color: white;
+
+}
+
+#giveUsMoney
+{
+    /* GIVE US MONEY!!! */
+
+width: 740px;
+height: 70px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 110%;
+/* or 70px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+}
+
+#pitch
+{
+    /* Go ahead and say just a little more about what you do. */
+
+width: 1152px;
+height: 35px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 145%;
+/* identical to box height, or 35px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.005em;
+
+color: #FFFFFF;
+
+
+
+}
+
+#sponsorshipText
+{
+    /* Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 1152px;
+height: 137px;
+left: 64px;
+top: 229px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+}
