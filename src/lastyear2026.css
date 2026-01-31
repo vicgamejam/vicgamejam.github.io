@@ -15,6 +15,12 @@ margin-bottom: 0px;
 
 }
 
+#lastYearBorder
+{
+    background-image: linear-gradient(#b1d757, #84c04f);
+    padding: 10vw 10vh
+}
+
 #text
 {
     /* Play the games, watch the results */
@@ -39,7 +45,13 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 margin-top: -20px;
-margin-left: 150px;
-justify-content: center;
+margin-left: 10px;
+justify-content: left;
 height: auto;
+}
+
+#internalSpace
+{
+    padding: 5%;
+    background-color: white;
 }

@@ -19,7 +19,7 @@ function Homepage()
     {
         d_Day = new Date("March 30, 2026 23:00:00");
     }
-    return (<div id="homepage"><Pitch2026/> <CountdownTimer targetDate={d_Day}/> <LastYear2026/> <SponsorshipPitch2026/>
+    return (<div id="homepage"><Pitch2026/>  <LastYear2026/> <CountdownTimer targetDate={d_Day}/> <SponsorshipPitch2026/>
     </div>)
 
 }

@@ -7,6 +7,7 @@ function Pitch2026(){
         <div id='parent'>
             <div id='text-side'>
                 <h2 id='pitchHeader'>Get ready to join Virginia's largest college game jam</h2>
+
                 <p id='pitchText'>VIC Jam is a ranked, 72-hour game jam for students attending colleges in Virginia. The theme will
                     be announced on Thursday, March 26th at 6pm!
                 </p>
