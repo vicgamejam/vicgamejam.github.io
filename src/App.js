@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter, Routes, Route, Link} from 'react-router-dom'
+import { HashRouter, Routes, Route, Link} from 'react-router-dom'
 import Homepage from './Homepage';
 import Sponsorships from './Sponsorships';
 import Logo from './Asset_373x.png';
@@ -10,7 +10,7 @@ import Logo from './Asset_373x.png';
 // This file should handle the routing of the application. Header and footer appear here too.
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
 
     <div id="header">
       <div id="navBarContainer">
@@ -43,7 +43,7 @@ function App() {
           <Link to="/">Contact</Link> | {" "}
       </span>
     </footer>
-    </BrowserRouter>
+    </HashRouter>
 
   );
 }
