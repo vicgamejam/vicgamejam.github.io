@@ -1,0 +1,159 @@
+#parent
+{
+    display: flex;
+}
+
+
+#text-side
+{
+    flex: 30%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    margin-left: 3%;
+}
+
+#logo-side
+{
+    display: flex;
+    flex: 70%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#pitch-logo
+{
+    height: auto;
+    width: 570px;
+}
+
+#pitchHeader
+{
+
+width: 712px;
+height: 200px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 110%;
+/* or 62px */
+display: flex;
+align-items: center;
+text-align: left;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+
+}
+
+#pitchText
+{
+
+width: 512px;
+height: 140px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 145%;
+/* or 35px */
+display: flex;
+text-align: left;
+letter-spacing: -0.005em;
+
+color: rgba(0, 0, 0, 0.55);
+
+
+
+
+}
+
+#buttonDiv
+{
+/* Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 16px;
+
+
+
+}
+
+#signup
+{
+/* Primary button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 8px;
+
+width: 99px;
+height: 50px;
+
+background: #000000;
+border-radius: 12px;
+
+
+
+/* Sign Up */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 145%;
+/* or 26px */
+color: #FFFFFF;
+
+
+}
+
+#secondary
+{
+
+/* Secondary button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 16px;
+gap: 8px;
+
+width: 125px;
+height: 50px;
+
+border: 2px solid rgba(0, 0, 0, 0.15);
+border-radius: 12px;
+
+
+/* Secondary */
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 145%;
+/* or 26px */
+color: #000000;
+
+}
