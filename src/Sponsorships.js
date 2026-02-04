@@ -6,7 +6,7 @@ function Sponsorships()
     return(
     <div id = 'sponsorshipContainer'>
         <div id='sponsorshipText'>
-            <h1 className='sponsorText' id='giveUsMoney'>Give Us Money!!!!!</h1>
+            <h1 className='sponsorText' id='giveUsMoney'>Support the next generation of game developers</h1>
             <p className='sponsorText' id='pitch'>Placeholder text to pitch the jam a little more</p>
 
         </div>

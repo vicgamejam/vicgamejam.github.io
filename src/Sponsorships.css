@@ -2,6 +2,9 @@
 {
     background-color: #263575;
     padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
 }
 
 .sponsorText
@@ -15,8 +18,6 @@
 {
     /* GIVE US MONEY!!! */
 
-width: 740px;
-height: 70px;
 
 font-style: normal;
 font-weight: 700;
@@ -34,10 +35,8 @@ letter-spacing: -0.02em;
 {
     /* Go ahead and say just a little more about what you do. */
 
-width: 1152px;
-height: 35px;
 
-font-family: 'Inter';
+font-family: 'Open Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
@@ -65,17 +64,17 @@ align-items: center;
 padding: 0px;
 gap: 32px;
 
-position: absolute;
+
+position: relative;
 width: 1152px;
 height: 137px;
 left: 64px;
 top: 229px;
 
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-z-index: 0;
+}
 
+#vectorLogo
+{
+    margin-top: 50vh;
 }
