@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/vicgamejam.github.io/static/css/main.fecf76cc.css",
+    "main.js": "/vicgamejam.github.io/static/js/main.7d3ea0de.js",
+    "static/js/453.e859c9b2.chunk.js": "/vicgamejam.github.io/static/js/453.e859c9b2.chunk.js",
+    "static/media/OpenSans-Bold.ttf": "/vicgamejam.github.io/static/media/OpenSans-Bold.043771c999cd4d47d9f3.ttf",
+    "static/media/OpenSans-Regular.ttf": "/vicgamejam.github.io/static/media/OpenSans-Regular.17e98b9e5586529b13cc.ttf",
+    "static/media/Neulis-SemiBold.otf": "/vicgamejam.github.io/static/media/Neulis-SemiBold.9f68241aa20a61ce2425.otf",
+    "static/media/Neulis-Regular.otf": "/vicgamejam.github.io/static/media/Neulis-Regular.8dc9812d3f978438653b.otf",
+    "static/media/Asset_373x.png": "/vicgamejam.github.io/static/media/Asset_373x.af29c430fb2dcc7ff511.png",
+    "index.html": "/vicgamejam.github.io/index.html",
+    "main.fecf76cc.css.map": "/vicgamejam.github.io/static/css/main.fecf76cc.css.map",
+    "main.7d3ea0de.js.map": "/vicgamejam.github.io/static/js/main.7d3ea0de.js.map",
+    "453.e859c9b2.chunk.js.map": "/vicgamejam.github.io/static/js/453.e859c9b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fecf76cc.css",
+    "static/js/main.7d3ea0de.js"
+  ]
+}
