@@ -10,7 +10,7 @@ import Logo from './Asset_373x.png';
 // This file should handle the routing of the application. Header and footer appear here too.
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
 
     <div id="header">
       <div id="navBarContainer">
