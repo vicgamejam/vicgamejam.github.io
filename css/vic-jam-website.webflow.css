@@ -3,6 +3,13 @@
   --gradient-mid: #ecf8f9;
   --gradient-yellow: #ffe9c9;
   --vic-blue: #3c4596;
+  --vic-green-1: #afd65b;
+}
+
+.w-layout-vflex {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
 }
 
 .w-layout-blockcontainer {
@@ -14,12 +21,6 @@
 
 .w-layout-hflex {
   flex-direction: row;
-  align-items: flex-start;
-  display: flex;
-}
-
-.w-layout-vflex {
-  flex-direction: column;
   align-items: flex-start;
   display: flex;
 }
@@ -66,8 +67,19 @@
   flex-flow: column;
   width: 100%;
   max-width: 100%;
-  height: 800px;
+  height: 100vh;
   display: flex;
+}
+
+.section.hero {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  flex: 0 auto;
+  order: 0;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  height: 100%;
 }
 
 .body {
@@ -76,11 +88,15 @@
 
 .container-2 {
   mix-blend-mode: normal;
+  background-image: none;
+  background-size: auto;
   border-radius: 0;
-  justify-content: center;
-  align-items: stretch;
-  width: 1440px;
-  max-width: 100%;
+  flex-flow: column;
+  justify-content: space-between;
+  align-self: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1440px;
   min-height: 100%;
   max-height: 100%;
   transition: color .2s, background-color .2s;
@@ -149,16 +165,24 @@
 .container-4 {
   grid-column-gap: 19px;
   grid-row-gap: 19px;
+  text-align: left;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
   background-image: linear-gradient(#fff 47%, #fff0);
   border-radius: 100px;
   flex-flow: column;
+  flex: 1;
   justify-content: flex-start;
+  align-self: center;
   align-items: center;
   min-width: 80%;
   max-width: 80%;
   margin-top: 114px;
+  margin-bottom: 45px;
   padding: 32px 98px 98px;
   font-family: Lato, sans-serif;
+  text-decoration: none;
   display: flex;
 }
 
@@ -270,6 +294,7 @@
   color: #fff;
   font-family: Lato, sans-serif;
   font-size: 15px;
+  display: block;
 }
 
 .header-nav-link.header-button {
@@ -282,6 +307,10 @@
 
 .header-nav-link.header-button:hover {
   background-color: #f8f8f8;
+}
+
+.header-nav-link.about-button {
+  display: none;
 }
 
 .flex-block {
@@ -363,9 +392,93 @@
   display: flex;
 }
 
+.last-year {
+  background-color: var(--vic-green-1);
+  background-image: url('../images/Asset-101.svg');
+  background-position: 0 0;
+  background-size: auto;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  display: none;
+  overflow: hidden;
+}
+
+.flex-block-3 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.section-4 {
+  background-color: #f0f0f0;
+  width: 100%;
+  height: 10vh;
+  display: none;
+  overflow: hidden;
+}
+
+.footer-link {
+  color: gray;
+  font-family: Lato, sans-serif;
+}
+
+.div-block-7 {
+  flex: 0 auto;
+  margin-top: 16px;
+  margin-left: 104px;
+}
+
+.flex-block-4 {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #fff;
+  border-radius: 50px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 85%;
+  margin-top: 30px;
+  padding: 58px;
+}
+
+.image-4 {
+  align-self: center;
+  width: 80%;
+  margin-top: -92px;
+  padding-top: 0;
+}
+
+._1440px-green {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.sponsors-container {
+  width: 100%;
+  max-width: 100%;
+  display: none;
+  overflow: hidden;
+}
+
+._1440px-sponsors {
+  width: 100%;
+  max-width: 1440px;
+  height: 20vh;
+}
+
 @media screen and (max-width: 991px) {
   .section {
     height: 1366px;
+  }
+
+  .section.hero {
+    max-width: 100%;
+  }
+
+  .container-2 {
+    width: 90%;
+    max-width: 90%;
   }
 
   .navbar {
@@ -373,8 +486,14 @@
   }
 
   .container-4 {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     flex: 0 auto;
     align-self: auto;
+    width: 100%;
+    min-width: auto;
+    max-width: 100%;
+    margin-top: -305px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -479,8 +598,13 @@
     height: 1046px;
   }
 
-  .container-2 {
+  .container-2, .navbar {
     width: 100%;
+  }
+
+  .container-3 {
+    position: fixed;
+    inset: 0% 0% auto;
   }
 
   .image-2 {
