@@ -493,7 +493,7 @@
 .sponsors-container {
   width: 100%;
   max-width: 100%;
-  height: 70vh;
+  height: 40vh;
   display: block;
   overflow: hidden;
 }
@@ -755,6 +755,10 @@
   .image-4 {
     width: auto;
     max-width: none;
+  }
+
+  .sponsor-image-button {
+    max-width: 40vw;
   }
 
   .container-6 {
