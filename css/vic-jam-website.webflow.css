@@ -432,6 +432,7 @@
 }
 
 .h2 {
+  color: var(--vic-blue);
   font-family: Figtree, sans-serif;
 }
 
@@ -493,7 +494,7 @@
   width: 100%;
   max-width: 100%;
   height: 70vh;
-  display: none;
+  display: block;
   overflow: hidden;
 }
 
@@ -510,7 +511,9 @@
 }
 
 .heading-3 {
+  color: var(--vic-blue);
   margin-top: 58px;
+  font-family: Figtree, sans-serif;
   display: block;
 }
 
@@ -519,7 +522,7 @@
   grid-row-gap: 80px;
   flex: 0 auto;
   grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-self: auto;
   width: 40%;
   min-width: 80vw;
@@ -549,6 +552,10 @@
 
 .sponsor-image-button.forge-button {
   height: 100%;
+}
+
+.sponsor-image-button.forge {
+  display: none;
 }
 
 .sponsorship-image {
@@ -583,6 +590,7 @@
 }
 
 .paragraph-3 {
+  color: var(--vic-blue);
   font-family: Figtree, sans-serif;
   font-size: 1rem;
 }
@@ -951,7 +959,7 @@
   }
 
   .sponsors-container {
-    display: none;
+    display: block;
   }
 
   .sponsors-grid {
