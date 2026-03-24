@@ -522,7 +522,7 @@
   grid-row-gap: 80px;
   flex: 0 auto;
   grid-template-rows: auto;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   align-self: auto;
   width: 40%;
   min-width: 80vw;
@@ -555,7 +555,7 @@
 }
 
 .sponsor-image-button.forge {
-  display: none;
+  display: block;
 }
 
 .sponsorship-image {
@@ -963,10 +963,12 @@
   }
 
   .sponsors-container {
+    height: 50vh;
     display: block;
   }
 
   .sponsors-grid {
+    grid-template-rows: auto;
     grid-template-columns: 1fr;
   }
 
